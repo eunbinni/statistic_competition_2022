@@ -1,0 +1,1 @@
+# statistic_competition_2022
