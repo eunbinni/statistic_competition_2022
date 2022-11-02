@@ -6,6 +6,7 @@
 데이터셋 출처 : https://www.kaggle.com/datasets/arashnic/imbalanced-data-practice?select=aug_train.csv 
 
 
+## 주제 :  통계적 분석을 통한 자동차 보험 판매 예측 모델링 및 군집화
 
 ### 1. introduction
 
