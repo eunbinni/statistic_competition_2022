@@ -74,6 +74,11 @@
 - K-means 군집 개수 평가지표
     1. 실루엣 계수
     2. Elbow point
+    ➔ 두 지표를 확인하여 k = 3일때 선정
+    군집 시각화 결과 
+    
+ <img src="https://github.com/eunbinni/statistic_competition_2022/blob/main/images/4.png" width="400" height="200"/>
+
 - 해석
 
 ### 5. Conclusion
@@ -82,7 +87,8 @@
       - 특히 경제 활동 인구가 많은 취업 후 ~ 은퇴 전 연령대에서 자동차 보험에 긍정적일 확률이 높은 것으로 보아 이 연령층에 마케팅을 집중
       - 판매 채널의 경우 채널별로 편차가 큰 것으로 보이며 높은 반응을 보이는 26,124,152 채널에서 위의 연령층에 마케팅을 집중
       - 상대적으로 낮은 반응을 보이는 판매채널에서는 마케팅을 줄이는 방향으로 진행하여 손실을 최소화, 혹은 핵심 연령층을 신규로 확보하는 마케팅 전략 수립
-     <img src="https://github.com/eunbinni/statistic_competition_2022/blob/main/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-11-07%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.30.21.png" width="500" height="250"/>
+     <img src="https://github.com/eunbinni/statistic_competition_2022/blob/main/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-11-07%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.30.21.png" width="530" height="250"/>
+     
      
       - PDP plot 'Age_level'
       <img src="https://github.com/eunbinni/statistic_competition_2022/blob/main/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-11-07%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.30.32.png" width="500" height="250"/>
