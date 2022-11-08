@@ -75,6 +75,7 @@
     1. 실루엣 계수
     2. Elbow point
     ➔ 두 지표를 확인하여 k = 3일때 선정
+    
     군집 시각화 결과 
     
  <img src="https://github.com/eunbinni/statistic_competition_2022/blob/main/images/4.png" width="400" height="200"/>
