@@ -57,15 +57,20 @@
     - 로지스틱회귀 가설검정
         - logistic regression을 선택한 이유 - 통계의 해석적 측면 강조
         - 로지스틱 회귀 모델에 대한 가설 검정
-        - 개별 회귀 계수에 대한 가설 검정
-        - 변수선택법(단계선택법) step
+        - 개별 회귀 계수에 대한 가설 검정 : vintage의 p-value가 0.05보다 작아 유의미하지 않다고 판단
+        - 변수선택법(단계선택법) step : vintage 제거
         → anova에서도 vintage, 변수선택법(단계선택법)에서도 vintage이므로 vintage를 제거하는 것으로 결정
         
 - 머신러닝 모델 (Tree 기반 모델)
     - RandomForest, XGBoost, CatBoost 비교 → 성능이 높았던 Catboost 선정
-    - CatBoost 모델의 다중공선성 처리 전후 비교
-    - CatBoost 모델의 불균형 처리 전후 비교 (class_weight 파라미터)
-    - Parameter Tuning -  (Bayesian Optimization)
+    - CatBoost 모델의 다중공선성 처리 전후 비교 
+    - CatBoost 모델의 불균형 처리 전후 비교 : class_weight 파라미터 
+    - 최종적으로 CatBoost 모델 선정
+
+
+- 모델 구축
+    - CatBoost 모델의 불균형 처리 전후 비교 : class_weight 파라미터 설정
+    - Parameter Tuning : Bayesian Optimization
     - threshold 변경 → threshold값 변경을 통해 조금 더 보수적으로 보험 신청 여부 판단
     - SHAP value를 통한 유의미한 변수 고찰
 
