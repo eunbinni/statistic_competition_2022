@@ -42,7 +42,7 @@
     - 인코딩
         - label 인코딩
     - 이상치처리
-        - boxplot으로 칼럼 별 분포 확인 후 이상치 대체
+        - boxplot으로 칼럼 별 분포 확인 후 이상치 하한값, 상한값으로 대체
     - 스케일링
         - log 변환
 
@@ -63,7 +63,7 @@
         
 - 머신러닝 모델 (Tree 기반 모델)
     - RandomForest, XGBoost, CatBoost 비교 → 성능이 높았던 Catboost 선정
-    - CatBoost 모델의 다중공선성 처리 전후 비교 
+    - CatBoost 모델의 다중공선성 처리 전후 비교 ➔ 둘 중 한가지 변수를 제거하였더니 성능이 오히려 떨어짐
     - CatBoost 모델의 불균형 처리 전후 비교 : class_weights 파라미터로 불균형 처리
     - 최종적으로 CatBoost 모델 선정
 
