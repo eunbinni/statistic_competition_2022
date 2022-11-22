@@ -35,7 +35,7 @@
     - target값 불균형 분포
     - 수치형 변수들과 target값의 분포
     - 범주형 변수들과 target값의 분포
-    - 상관관계 확인→ 다중공선성 의심
+    - 상관관계 확인 → 다중공선성 의심
 - 전처리
     - 결측치 처리
         - 결측치 존재 x
@@ -59,7 +59,7 @@
         - 로지스틱 회귀 모델에 대한 가설 검정
         - 개별 회귀 계수에 대한 가설 검정 : vintage의 p-value가 0.05보다 작아 유의미하지 않다고 판단
         - 변수선택법(단계선택법) step : vintage 제거
-        → anova에서도 vintage, 변수선택법(단계선택법)에서도 vintage이므로 vintage를 제거하는 것으로 결정
+        → anova에서도 vintage, 변수선택법(단계선택법)에서도 vintage가 유의하지 않다고 판단되었으므로, vintage를 제거하는 것으로 결정
         
 - 머신러닝 모델 (Tree 기반 모델)
     - RandomForest, XGBoost, CatBoost 비교 → 성능이 높았던 Catboost 선정
