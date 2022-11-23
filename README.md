@@ -32,7 +32,7 @@
 - 데이터 소개
     - 불필요한 변수(id)삭제
 - 시각화
-    - target값 불균형 분포
+    - target값 불균형 분포 ➔ 약 5.3 : 1로 taget이 1인 숫자가 적음
     - 수치형 변수들과 target값의 분포
     - 범주형 변수들과 target값의 분포
     - 상관관계 확인 → 다중공선성 의심
@@ -42,7 +42,7 @@
     - 인코딩
         - label 인코딩
     - 이상치처리
-        - boxplot으로 칼럼 별 분포 확인 후 이상치 하한값, 상한값으로 대체
+        - boxplot으로 칼럼 별 분포 확인 후 이상치를 하한값, 상한값으로 대체
     - 스케일링
         - log 변환
 
@@ -64,7 +64,7 @@
 - 머신러닝 모델 (Tree 기반 모델)
     - RandomForest, XGBoost, CatBoost 비교 → 성능이 높았던 Catboost 선정
     - CatBoost 모델의 다중공선성 처리 전후 비교 ➔ 둘 중 한가지 변수를 제거하였더니 성능이 오히려 떨어짐
-    - CatBoost 모델의 불균형 처리 전후 비교 : class_weights 파라미터로 불균형 처리
+    - CatBoost 모델의 불균형 처리 전후 비교 : class_weights 파라미터로 불균형 처리 (CatBoost에서는 oversampling이 크게 성능 향상을 이루지 못하였음)
     - 최종적으로 CatBoost 모델 선정
 
 
