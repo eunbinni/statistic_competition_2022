@@ -84,12 +84,16 @@
 - K-means 알고리즘으로 군집화 후 군집 시각화 
 - K-means 군집 개수 평가지표
     1. 실루엣 계수
+    
+    <img width="698" alt="실루엣" src="https://user-images.githubusercontent.com/97430653/203897540-d4231a0d-4a0a-4535-95bc-90bcda2b4eae.png">
+    
     2. Elbow point : 군집 개수 3일때 평균 실루엣 계수가 0.59로 가장 높았음
     ➔ 두 지표를 확인하여 k = 3일때 선정
     
+    
     군집 시각화 결과 
     
- <img src="https://github.com/eunbinni/statistic_competition_2022/blob/main/images/4.png" width="400" height="250"/>
+<img width="384" alt="군집" src="https://user-images.githubusercontent.com/97430653/203897498-de9f9b57-8fe4-4261-986a-882911fb2aab.png">
 
 - 해석
 
