@@ -3,10 +3,8 @@
 ## 건국대학교 응용통계학과 '제 3회 통계최강자전' 대회 코드
 ### 최종 결과 : 1위 대상 🥇
 
-<img src="https://github.com/eunbinni/statistic_competition_2022/blob/main/images/IMG_5194.jpg" width="400" height="150”>
-
-                                                                                                                    
-                                                                                                                    
+![IMG_5194](https://user-images.githubusercontent.com/97430653/234464498-20ca7984-423e-4507-8b14-2eed2f946bb8.jpg)
+                                           
 대회에서 주어지는 데이터셋
 
 <img width="728" alt="5" src="https://user-images.githubusercontent.com/97430653/201526356-28e8f7c2-0e7c-47a7-9f7b-cbd1c764e548.png">
