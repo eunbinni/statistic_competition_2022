@@ -3,7 +3,7 @@
 ## 건국대학교 응용통계학과 '제 3회 통계최강자전' 대회 코드
 ### 최종 결과 : 1위 대상 🥇
 
-<img width="650" alt="IMG_5194" src="https://user-images.githubusercontent.com/97430653/234464880-6aaac150-b25d-410b-b546-b4d580a29f88.jpg">
+<img width="500" alt="IMG_5194" src="https://user-images.githubusercontent.com/97430653/234464880-6aaac150-b25d-410b-b546-b4d580a29f88.jpg">
 
 
 대회에서 주어지는 데이터셋
